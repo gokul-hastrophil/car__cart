@@ -1,0 +1,141 @@
+.main{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:center ;
+    position: relative;
+    align-items: center;
+    height: 550px;
+    width: 360px;
+    margin-left: 40%;
+    margin-top: 3%;
+    /*box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);
+    /* box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45); */
+}
+
+.image{
+    /* border: 1px solid green; */
+    position: absolute;
+    height: 200px;
+    width: 360px;
+    margin-top: -97%;
+}
+
+.information{
+    /* border: 1px solid rgb(0, 0, 0); */
+    position: absolute;
+    height: 343px;
+    width: 360px;
+    margin-top: 58%;
+    background:linear-gradient(to bottom,rgb(0, 0, 0),rgb(244, 16, 4)) opacity transparent;
+}
+body{
+    background-image: url(./Assert/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+img{
+    border: 1px solid;
+}
+
+.uppertp{
+    color: white;
+    position: absolute;
+     border: 1px solid black;
+    height: 20px;
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 3px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(240, 58, 7);
+}
+
+.name{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 72%;
+    margin-top: 20%;
+    margin-left: 6%;
+}
+
+table{
+    position: absolute;
+    /* border:1px solid black; */
+    margin-left: 8.3%;
+    margin-top: 34%;
+    scale: 1.1;
+}
+td{
+    padding-left: 4px;
+}
+
+.p2{
+    position: absolute;
+    color: white;
+    margin-left: 8%;
+    font-size: large;
+    margin-top: 59%;
+}
+
+.button{
+    /* position: absolute; */
+    /* border: 1px solid black; */
+    position: absolute;
+    margin-top: 67%;
+    margin-left: 3%;
+    width: 50%;
+    height: 10%;
+    scale: 82%;
+}
+
+.b1{
+    border: 1px solid rgb(0, 0, 0);
+    height: 12px;
+    width: 3px;
+    scale:2;
+    border-radius: 50%;
+    margin-left: 6%;
+    background-color: aliceblue;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.b2{
+    border: 1px solid rgb(255, 255, 255);
+    height: 12px;
+    width: 1%;
+    scale:2;
+    border-radius: 50%;
+    margin-left: 15%;
+    background-color: rgb(12, 4, 122);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.b3{
+    border: 1px solid rgb(255, 255, 255);
+    height: 12px;
+    width: 1%;
+    scale:2;
+    border-radius: 50%;
+    margin-left: 15%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.cart{
+    border: 0px solid;
+    color: rgb(0, 0, 0);
+    margin-top: 77%;
+    margin-left: 8%;
+    border: 1px solid rgb(2, 255, 238);
+    background-color: rgb(241, 89, 7);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.price{
+    color: rgb(255, 255, 255);
+    scale: 110%;
+    position: absolute;
+    margin-top: -16%;
+    margin-left: 45%;
+
+}
